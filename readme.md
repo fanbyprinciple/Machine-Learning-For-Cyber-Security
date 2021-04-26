@@ -38,9 +38,30 @@ know where it currently is.
 
 ### Anomaly detection with Isolation Forest
 
-page 44
+![](img/ch1_anomaly.png)
 
-https://www.kaggle.com/fanbyprinciple/anomaly-detection-with-isolation-forest/edit
+### Natural language processing using a hashing vectorizer and if-idf with scikit learn
+
+A token is a unit of text. For example, we may specify that our tokens are words, sentences,
+or characters. A count vectorizer takes textual input and then outputs a vector consisting of
+the counts of the textual tokens. A hashing vectorizer is a variation on the count vectorizer
+that sets out to be faster and more scalable, at the cost of interpretability and hashing
+collisions. Though it can be useful, just having the counts of the words appearing in a
+document corpus can be misleading. The reason is that, often, unimportant words, such as
+the and a (known as stop words) have a high frequency of occurrence, and hence little
+informative content. For reasons such as this, we often give words different weights to
+offset this. The main technique for doing so is tf-idf, which stands for Term-Frequency,
+Inverse-Document-Frequency. The main idea is that we account for the number of times a
+term occurs, but discount it by the number of documents it occurs in
+
+![](img/ch1_hash_vectorizer.png)
+
+### Hyper parameter tuning with scikit optimize
+
+![](img/ch1_hyperparameter_search.png)
+
+Page 57
+
 
 
 
