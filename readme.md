@@ -62,7 +62,45 @@ term occurs, but discount it by the number of documents it occurs in
 
 Page 57
 
+# Chapter 2 Machine Learning Based Malware Detection
 
+### Malware Static Analysis
 
+It can be name or yara.
+
+1. comparing and finding out the hash value
+
+![](ch2_hashes.png)
+
+2. Looking at YARA rules
+
+![](ch2_yara.png)
+
+3. Looking at section headers
+
+![](ch2_section_headers.png)
+
+4. Looking at feature sections
+
+![](ch2_feature_sections.png)
+
+### Malware dynamic analysis
+
+Unlike static analysis, dynamic analysis is a malware analysis technique in which the expert
+executes the sample, and then studies the sample's behavior as it is being run. The main
+advantage of dynamic analysis over static is that it allows you to bypass obfuscation by
+simply observing how a sample behaves, rather than trying to decipher the sample's
+contents and behavior.
+
+Malware can be analysed by setting up a cuckoo sandbox
+
+### using machine learning to detect the file type
+
+to curate a dataset we will scrape github
+Shows the function of pyGithub
+
+Be careful with the github password while doing this exercise!
+
+Page 73
 
 
