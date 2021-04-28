@@ -103,10 +103,45 @@ Be careful with the github password while doing this exercise!
 
 ![](img/ch2_github_parser.png)
 
-code at :
-https://colab.research.google.com/drive/1wDGTqMpLKzwpIpczMGu3YIqICq8_a6oO#scrollTo=j0aPUHnSTGuT
+code at : https://colab.research.google.com/drive/1wDGTqMpLKzwpIpczMGu3YIqICq8_a6oO#scrollTo=Fo2GZzhmxQ73
 
-Page 76
+File classifier made :
 
+![](img/ch2_file_classifier_result.png)
+
+### Measuring similarity between two strings
+
+To check whether two files are identical, we utilize standard cryptographic hash functions,
+such as SHA256 and MD5. However, at times, we would like to also know to what extent
+two files are similar. For that purpose, we utilize similarity hashing algorithms. The one we
+will be demonstrating here is ssdeep
+
+![](img/ch2_ssdeep.png)
+
+Not very useful I feel, but only channging one letter the score comes down to 30
+
+### Measuring similarity between two files
+
+adding a null character at the end creates the following change
+
+![](img/ch2_ssdeep_file.png)
+
+### Extracting N-grams
+
+n the 1-grams are the, quick, brown, fox, jumped, over, the, lazy, and
+dog. The 2-grams are the quick, quick brown, brown fox, and so on. The 3-grams are the quick
+brown, quick brown fox, brown fox jumped, and so on
+
+Just like the local statistics of the text
+allowed us to build a Markov chain to perform statistical predictions and text generation
+from a corpus, N-grams allow us to model the local statistical properties of our corpus.
+
+![](img/ch2_ngrams_initial.png)
+
+### Extracting the most useful N-grams
+
+https://www.kaggle.com/fanbyprinciple/making-n-grams-in-nltk/edit
+
+page 86
 
 
