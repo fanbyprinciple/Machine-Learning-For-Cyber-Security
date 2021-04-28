@@ -101,6 +101,12 @@ Shows the function of pyGithub
 
 Be careful with the github password while doing this exercise!
 
-Page 73
+![](img/ch2_github_parser.png)
+
+code at :
+https://colab.research.google.com/drive/1wDGTqMpLKzwpIpczMGu3YIqICq8_a6oO#scrollTo=j0aPUHnSTGuT
+
+Page 76
+
 
 
