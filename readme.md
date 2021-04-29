@@ -138,10 +138,21 @@ from a corpus, N-grams allow us to model the local statistical properties of our
 
 ![](img/ch2_ngrams_initial.png)
 
-### Extracting the most useful N-grams
+### Selecting the best N-grams
 
-https://www.kaggle.com/fanbyprinciple/making-n-grams-in-nltk/edit
+![](img/ch2_partial_Ngrams.png)
 
-page 86
+First we had to download all the PE files
+
+![](img/ch2_downloading_PE.png)
+
+https://colab.research.google.com/drive/1sgT5VSlxcthkCXlzN30eUibU3HvPOG6v#scrollTo=qwbZ6zaRsH1v
+
+Page 86
+
+
+
+
+
 
 
