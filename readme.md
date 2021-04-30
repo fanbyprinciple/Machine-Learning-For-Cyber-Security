@@ -150,6 +150,7 @@ https://colab.research.google.com/drive/1sgT5VSlxcthkCXlzN30eUibU3HvPOG6v#scroll
 
 Page 86
 
+![](img/ch2_selecting_nest_ngrams.png)
 
 
 
