@@ -148,9 +148,29 @@ First we had to download all the PE files
 
 https://colab.research.google.com/drive/1sgT5VSlxcthkCXlzN30eUibU3HvPOG6v#scrollTo=qwbZ6zaRsH1v
 
-Page 86
+### Selecting the best N grams
 
 ![](img/ch2_selecting_nest_ngrams.png)
+
+### Building a static malwre detector
+
+classifier:
+
+![](img/ch2_malware_classifier.png)
+
+### Tackling class imbalance
+
+![](img/ch2_data_imbalance)
+
+Often in applying machine learning to cybersecurity, we are faced with highly imbalanced
+datasets. For instance, it may be much easier to access a large collection of benign samples
+than it is to collect malicious samples. Conversely, you may be working at an enterprise
+that, for legal reasons, is prohibited from saving benign samples
+
+
+
+
+
 
 
 
