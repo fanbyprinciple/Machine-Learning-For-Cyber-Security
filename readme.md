@@ -162,6 +162,13 @@ classifier:
 
 ![](img/ch2_data_imbalance)
 
+### Handling type 1 and type 2 errors
+
+In many situations in machine learning one type of error might be more important thatn other
+
+![](img/ch2_thresholding.png)
+
+
 Often in applying machine learning to cybersecurity, we are faced with highly imbalanced
 datasets. For instance, it may be much easier to access a large collection of benign samples
 than it is to collect malicious samples. Conversely, you may be working at an enterprise
