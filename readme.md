@@ -150,7 +150,7 @@ https://colab.research.google.com/drive/1sgT5VSlxcthkCXlzN30eUibU3HvPOG6v#scroll
 
 ### Selecting the best N grams
 
-![](img/ch2_selecting_nest_ngrams.png)
+![](img/ch2_selecting_best_ngrams.png)
 
 ### Building a static malwre detector
 
@@ -160,7 +160,7 @@ classifier:
 
 ### Tackling class imbalance
 
-![](img/ch2_data_imbalance)
+![](img/ch2_data_imbalance.png)
 
 ### Handling type 1 and type 2 errors
 
@@ -173,6 +173,32 @@ Often in applying machine learning to cybersecurity, we are faced with highly im
 datasets. For instance, it may be much easier to access a large collection of benign samples
 than it is to collect malicious samples. Conversely, you may be working at an enterprise
 that, for legal reasons, is prohibited from saving benign samples
+
+# Chapter 3 Advanced Malware Detection
+
+We would be working with following recipes
+
+1. detecting obfuscated Javascript
+2. Featurizing PDF files
+3. Extracting Ngrams quickly by using hash-gram algorithm
+4. Building a dynamic malware classifier
+5. MalConv -  end to end deep learning for malicious PE detection
+6. using packers
+7. Assembling a pcked sample dataset
+8. Building a classifier for packers
+9. MalGAN
+10. Tracking malware drift
+
+### Javascript Obfuscated files
+
+https://www.kaggle.com/fanbyprinciple/javascript-obfuscation-detection/edit
+
+![](img/ch3_javascript_obfuscation.png)
+
+page 107
+
+
+
 
 
 
