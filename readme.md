@@ -193,9 +193,25 @@ We would be working with following recipes
 
 https://www.kaggle.com/fanbyprinciple/javascript-obfuscation-detection/edit
 
+dataset at : https://www.kaggle.com/fanbyprinciple/obfuscated-javascript-dataset
+
 ![](img/ch3_javascript_obfuscation.png)
 
 page 107
+
+### Featurizing PDF files
+
+is the PDFiD Python script designed by Didier Stevens
+(https://blog.didierstevens.com/). Stevens selected a list of 20 features that are
+commonly found in malicious files, including whether the PDF file contains JavaScript or
+launches an automatic action. It is suspicious to find these features in a file, hence, the
+appearance of these can be indicative of malicious behavior.
+
+Google colab link: https://colab.research.google.com/drive/1aDEU2OTZIoqSLIlZxGPStAhPQnPLSOHm#scrollTo=0DtzUxJA58Uh
+
+![](img/ch3_pdfid.png)
+
+
 
 
 
