@@ -211,6 +211,17 @@ Google colab link: https://colab.research.google.com/drive/1aDEU2OTZIoqSLIlZxGPS
 
 ![](img/ch3_pdfid.png)
 
+### Extracting N-grams quickly using the hash gram algorithm
+
+We will extract the most common ngrams efficiently.
+
+![](img/ch3_hashgrams.png)
+
+https://www.kaggle.com/fanbyprinciple/quick-guide-to-creating-creating-hashgrams/edit
+
+
+
+
 
 
 
