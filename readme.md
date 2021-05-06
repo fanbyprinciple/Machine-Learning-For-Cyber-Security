@@ -219,6 +219,12 @@ We will extract the most common ngrams efficiently.
 
 https://www.kaggle.com/fanbyprinciple/quick-guide-to-creating-creating-hashgrams/edit
 
+### Dynamic analysis
+
+![](img/ch3_dynamic_analysis.png)
+
+PAGE 119
+
 
 
 
