@@ -225,6 +225,15 @@ https://www.kaggle.com/fanbyprinciple/quick-guide-to-creating-creating-hashgrams
 
 PAGE 119
 
+### MalConv building an end to end deep learning for malicous PE detection
+
+if we cimpletely skip feature engineering , we simply feed a stream of raw bytes to the neural network.
+
+![](img/malconv_code.png)
+
+No able to run the notebook here.
+
+
 
 
 
