@@ -233,6 +233,11 @@ if we cimpletely skip feature engineering , we simply feed a stream of raw bytes
 
 No able to run the notebook here.
 
+https://www.kaggle.com/fanbyprinciple/malconv-end-to-end-malware-detection/edit
+
+![](img/ch3_malconv_predict.png)
+
+
 
 
 
