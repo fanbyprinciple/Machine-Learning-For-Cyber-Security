@@ -237,6 +237,16 @@ https://www.kaggle.com/fanbyprinciple/malconv-end-to-end-malware-detection/edit
 
 ![](img/ch3_malconv_predict.png)
 
+### Tackling packed malware
+
+running upx for packing and unpacking files
+
+![](img/ch3_packer_1.png)
+
+https://www.kaggle.com/fanbyprinciple/tackling-packed-malware/edit
+
+
+
 
 
 
