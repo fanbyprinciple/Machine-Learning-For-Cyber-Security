@@ -245,13 +245,22 @@ running upx for packing and unpacking files
 
 https://www.kaggle.com/fanbyprinciple/tackling-packed-malware/edit
 
+![](img/ch3_packer_2.png)
+
+### creating Malgan
+
+It is not working
+
+![])img/ch3_malgan.png)
+
+### malware time drift
+
+![](img/ch3_trojan_time_series.png)
 
 
+# Ch4 Machine Learning for Social Engineering
 
-
-
-
-
+page 139
 
 
 
