@@ -262,6 +262,23 @@ It is not working
 
 page 139
 
+### Twitter spear phishing bot
+
+In this recipe, we are going to use machine learning to build a Twitter spear phishing bot.
+The bot will utilize artificial intelligence to mimic its targets' tweets, hence creating
+interesting and enticing content for its own tweets. Also, the tweets will contain embedded
+links, resulting in targets clicking these phishing links. Of course, we will not be utilizing
+this bot for malicious purpose, and our links will be dummy links. The links themselves
+will be obfuscated, so a target will not be able to tell what is really hidden behind them
+until after they click.
+Experimentally, it has been shown that this form of attack has a high percentage success
+rate, and by simulating this form of attack, you can test and improve the security posture of
+your client or organization
+
+![](img/ch4_tweepy.png)
+
+### Voice impersonation
+
 
 
 
