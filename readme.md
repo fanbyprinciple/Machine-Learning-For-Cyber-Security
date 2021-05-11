@@ -279,6 +279,20 @@ your client or organization
 
 ### Voice impersonation
 
+Using the new technology of voice style transfer via neural networks, it is becoming easier
+and easier to convincingly impersonate a target's voice. In this section, we show you how to
+use deep learning to have a recording of a target saying whatever you want them to say, for
+example, to have a target's voice used for social engineering purposes or, a more playful
+example, using Obama's voice to sing Beyoncé songs. We selected the architecture in
+mazzzystar/randomCNN-voice-transfer that allows for fast results with high quality.
+In particular, there is no need to pre-train the model on a large dataset of recorded audio
+
+![](img/ch4_voice_impersonator.png)
+
+
+
+
+
 
 
 
