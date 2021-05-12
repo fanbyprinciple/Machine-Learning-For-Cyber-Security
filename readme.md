@@ -289,7 +289,9 @@ In particular, there is no need to pre-train the model on a large dataset of rec
 
 ![](img/ch4_voice_impersonator.png)
 
+### Speech recognition
 
+![](img/ch4_speech_recognition.png)
 
 
 
