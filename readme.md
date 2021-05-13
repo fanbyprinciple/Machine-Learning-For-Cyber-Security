@@ -293,6 +293,15 @@ In particular, there is no need to pre-train the model on a large dataset of rec
 
 ![](img/ch4_speech_recognition.png)
 
+### Face Recognition
+
+![](img/ch4_buffet.png)
+
+### Deep fake example
+
+![](img/ch4_musk_witcher.jpg)
+
+
 
 
 
