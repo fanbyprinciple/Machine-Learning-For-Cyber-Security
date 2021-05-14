@@ -301,6 +301,10 @@ In particular, there is no need to pre-train the model on a large dataset of rec
 
 ![](img/ch4_musk_witcher.jpg)
 
+### Deep fake recognition
+
+![](img/ch4_deepfake_detection.png)
+
 
 
 
