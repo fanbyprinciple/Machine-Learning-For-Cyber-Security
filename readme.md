@@ -305,7 +305,27 @@ In particular, there is no need to pre-train the model on a large dataset of rec
 
 ![](img/ch4_deepfake_detection.png)
 
+### Lie detector
 
+It is actually a flask app. Need to look into it later.
+
+### Personality insight IBM
+
+NO authenticator error. And Personalityinsight is being discontinued.
+
+![](img/ch4_personality_ibm.png)
+
+### Social mapper
+
+We would be using somehting liek Greenwolf social mapper
+
+Using social mapper you can look at the teh person web footprint
+
+### Fake review generator
+
+![](img/ch4_gen_reviews.png)
+
+### 
 
 
 
