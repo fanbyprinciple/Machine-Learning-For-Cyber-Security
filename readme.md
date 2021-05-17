@@ -325,7 +325,13 @@ Using social mapper you can look at the teh person web footprint
 
 ![](img/ch4_gen_reviews.png)
 
-### 
+### Fake news classification
+
+created a dataset :https://www.kaggle.com/fanbyprinciple/fake-news-dataset
+
+![](img/ch4_fake_news_classification.png)
+
+
 
 
 
