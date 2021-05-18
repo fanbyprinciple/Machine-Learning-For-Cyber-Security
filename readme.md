@@ -331,6 +331,23 @@ created a dataset :https://www.kaggle.com/fanbyprinciple/fake-news-dataset
 
 ![](img/ch4_fake_news_classification.png)
 
+# Ch5 Penetration Testing Using Machine Learning
+
+### CAPTCHA breaker
+
+A CAPTCHA is a system intended to prevent automated web scraping
+
+We will be creating a captcha dataset
+
+The dataset: https://www.kaggle.com/fanbyprinciple/captcha-images/code
+
+![](img/ch5_captcha_solver_segmentation.png)
+
+https://www.kaggle.com/fanbyprinciple/captcha-solver/edit
+
+
+
+
 
 
 
