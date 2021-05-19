@@ -345,6 +345,10 @@ The dataset: https://www.kaggle.com/fanbyprinciple/captcha-images/code
 
 https://www.kaggle.com/fanbyprinciple/captcha-solver/edit
 
+CAPTCHA solver works!
+
+![](img/ch4_captcha_solver_works.png)
+
 
 
 
