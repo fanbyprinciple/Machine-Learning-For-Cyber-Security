@@ -349,7 +349,29 @@ CAPTCHA solver works!
 
 ![](img/ch4_captcha_solver_works.png)
 
+## Neural Network assisited fuzzing
 
+![](img/ch5_nuezz.png)
+
+## DeepExploit
+
+DeepExploit is a penetration testing tool that elevates Metasploit to a whole new level by
+leveraging AI. Its key features are as follows:
+
+Deep penetration: If DeepExploit successfully exploits the target, it will
+automatically execute the exploit to other internal servers as well. 
+
+Learning: DeepExploit is a reinforcement learning system, akin to AlphaGo.
+
+## Web server vulnerability scanner using machine learning (GyoiThon)
+
+GyoiThon is an intelligence-gathering tool for web servers. It executes remote access to a
+target web server and identifies products operated on the server, such as the Content
+Management System (CMS), web server software, framework, and programming
+language.
+
+In addition, it can execute exploit modules for the identified products using
+Metasploit. 
 
 
 
