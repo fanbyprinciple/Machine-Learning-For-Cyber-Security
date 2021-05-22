@@ -353,6 +353,25 @@ CAPTCHA solver works!
 
 ![](img/ch5_nuezz.png)
 
+Most popular fuzzers, while effective in some limited situations, often get stuck in a loop.
+Gradient-based methods, such as the one discussed here, are promising but do not clearly
+apply to the problem, because real-world program behaviors are not necessarily smooth
+functions (for example, they can be discontinuous). The idea behind NEUZZ is to
+approximate the program's behavior as a smooth function using neural networks. Then, it
+is possible to apply gradient methods to improve fuzzing efficiency. We start our recipe by
+compiling NEUZZ (step 1). The funroll-loops flag causes the compiler to unroll loops
+whose number of iterations can be determined at compile time or upon entry to the loop.
+As a result, the code is larger, and may run faster, although not necessarily. Continuing to
+setup NEUZZ, we add in 32-bit support (step 2). We set the CPU scaling algorithm and core
+dump notification (step 3); the CPU frequency scaling is a setting that enables the OS to save
+power by scaling the CPU frequency up or down. In the next two steps, we simply place
+the files in a convenient location and allow permissions to execute them. We are done
+setting up NEUZZ. We can now use it to find inputs that cause programs to crash. In step 6
+and step 7, we begin the search for crashes using our neural network. After waiting a 
+sufficient amount of time for step 6 and step 7 to gather enough inputs to cause the readelf
+tool to crash, we execute one of these inputs (step 8) to see the result. Indeed, we see that the
+input resulted in readelf crashing.
+
 ## DeepExploit
 
 DeepExploit is a penetration testing tool that elevates Metasploit to a whole new level by
@@ -362,6 +381,15 @@ Deep penetration: If DeepExploit successfully exploits the target, it will
 automatically execute the exploit to other internal servers as well. 
 
 Learning: DeepExploit is a reinforcement learning system, akin to AlphaGo.
+
+The model utilizes the Asynchronous Actor-Critic Agents (A3C)
+algorithm, released by Google's DeepMind group a few years back, famous for 
+outperforming the deep Q-network (DQN) approach. Next, we test our model (step 12) and
+print out the results of its analysis in a report (step 13). As you can see from the long report,
+a large number of vulnerabilities were found by DeepExploit. Speaking from a high level,
+the application of reinforcement learning to penetration testing suggests that extremely
+efficient automated penetration testing is on the horizon.
+
 
 ## Web server vulnerability scanner using machine learning (GyoiThon)
 
@@ -373,9 +401,78 @@ language.
 In addition, it can execute exploit modules for the identified products using
 Metasploit. 
 
+## Deanonymizing Tor using machine learning
 
+Tor is a free, open source software for enabling anonymous communication. In addition,
+websites accessible only when using the Tor browser exist, and are part of the dark web
+ecosystem – the name given to the part of the internet that is hidden from the average user.
+In this recipe, we will deanonymize Tor traffic by collecting enough features and
+information from individual sessions to be able to identify the activity of anonymized
+users. This recipe utilizes the conmarap/website-fingerprinting repository
 
+## IoT device type identification using machine learning
 
+With the advent of IoT, the attack surfaces on any given target have increased
+exponentially. With new technology comes new risks, and, in the case of IoT, one such risk
+to an organization is the addition of a malicious IoT device connected to the organization's
+network. It is essential to be able to tell when such a device has been added to a network
+and to understand its nature. In this recipe, we'll build a machine learning model to classify
+network IoT devices by type
+
+![](img/ch5_iot_classification.png)
+
+## Keystroke dynamics
+
+Keystroke dynamics, aka typing biometrics, is the study of recognizing a person by the way
+they type. One important use case is recognizing which user is logging in using a given
+credential, for example, who is logging in as root? Another use case is recognizing when a
+different user has typed a sequence of keystrokes. In this recipe, we'll show how to use a
+machine learning-based keystroke dynamics algorithm
+
+How it works...
+
+Analyzing keystroke dynamics utilizes the rhythm and pace at which a user types on a
+keyboard to verify that individual's identity. We begin by setting up some baselines. In step
+1 and step 2, we set up the keystroke dynamics system to learn the typing pattern of the first
+user. We then do the same for the second user (step 3). This establishes our normal users, as
+well as their typing patterns. In step 4 and step 5, we utilize our trained model (trained in
+steps 1-3), to determine who the current user is. As you can see, the classifier outputs a
+similarity score and a prediction of who the current user is from its catalog of saved users.
+This allows us to detect unauthorized users, as well as to simply keep track of system
+usage
+
+## Malicious URL detector
+
+Malicious URLs cause billions of dollars of damage every year by hosting spam, malware,
+and exploits, as well as stealing information. Traditionally, defenses against these have
+relied on blacklists and whitelists – lists of URLs that are considered malicious, and lists of
+URLs that are considered safe. However, blacklists suffer from a lack of generality and an
+inability to defend against previously unseen malicious URLs. To remedy the situation,
+machine learning techniques have been developed. In this recipe, we'll run a malicious URL
+detector using character-level recurrent neural networks with Keras. The code is based on
+https://github.com/chen0040/keras-malicious-url-detector.
+
+## Deep-pwning
+
+Deep-pwning is a framework for evaluating the robustness of machine learning tools
+against adversarial attacks. It has become widely known in the data science community that
+naive machine learning models, such as deep neural networks trained with the sole aim of
+classifying images, are very easily fooled.
+
+## Deep learning-based system for the automatic detection of software vulnerabilities
+
+Experts in information security can usually identify potentially exploitable pieces of code.
+Yet, the work is intensive and costly, and may not be sufficient to make a program secure.
+One of the great advantages of deep learning over traditional machine learning is that
+features can be automatically discovered. This allows us to alleviate the need for a human
+expert on vulnerabilities, as well as to produce more effective systems. In this recipe, we'll
+utilize a modified version of VulDeePecker : A Deep Learning-Based System for Vulnerability
+Detection (https://arxiv.org/pdf/1801.01681.pdf), to automatically detect buffer error
+vulnerabilities and resource management errors in C/C++ software.
+
+# ch6 Automatic Intrusion Detection
+
+## Spam filtering using machine learning
 
 
 
